@@ -1,0 +1,219 @@
+body{
+    font-family: 'Exo 2';
+    background-color: #e5e5e4;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: pink;
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 2px;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'Press Start 2P';
+}
+
+.catalog-img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+h1{
+    font-size: 30px;
+    padding: 10px 10px 10px 0;
+    font-weight: bold;
+    font-family: 'IBM Plex Mono';
+}
+
+p{
+    margin: 5px;
+}
+
+.mis-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.productosItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: peachpuff;
+    height: auto;
+    width: 160px;
+    padding: 5px;
+    border: solid 2px;
+    border-color: #000000;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px 5px 10px 5px;
+}
+
+.productosItem:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+.precio-botton{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+}
+
+
+.imagen-producto{
+    width: 150px;   
+    height: 150px;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: #000000;
+    margin: 5px;
+}
+
+.img-borrar{
+    width: 15px;
+    height: 15px;
+    margin: 6px 5px;
+}
+.boton-borrar:hover{
+    transform: scale(2.1);
+}
+
+.agregar-productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    height: 280px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.formulario-agregar-productos{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 300px;
+    padding: 5px;
+}
+
+input{
+    border: solid 2px;
+    border-color: peachpuff;
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0px 10px;
+}
+
+.boton-enviar{
+    width: 70px;
+    height: 30px;
+    background-color: peachpuff;
+    border: solid 2px;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+
+.boton-enviar:hover{
+    border-color: grey;
+    background-color: #ffffff;
+    color: grey;
+    font-weight: bolder;
+    transform: scale(1.1);
+}
+
+.boton-limpiar{
+    width: 70px;
+    height: 30px;
+    border: solid 2px;
+    border-color: peachpuff;
+    border-radius: 5px;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+
+.boton-limpiar:hover{
+    background-color: grey;
+    border-color: #000000;
+    color: #ffffff;
+    font-weight: bolder;
+    transform: scale(1.1);
+}
+
+footer{
+    background: pink;
+    font-size: 10px;
+    font-weight: bold;
+    border: solid 2px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+.footer-h2-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+h2{
+    font-size: 10px;
+    margin: 2px;
+    font-family: 'Press Start 2P';
+}
+
+.catalog-img-footer{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.text-footer{
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*Mobile*/
+@media (max-width: 768px) {
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 2px;
+    }
+
+}
